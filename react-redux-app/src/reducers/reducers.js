@@ -9,13 +9,13 @@ import {
 
 const initialState = {
   call: {
-    isDrawingCard: false,
     isShufflingCards: false,
+    isDrawingCard: false,
     error: false
   },
   draw: {
     id: 0,
-    number: 0,
+    number: 1,
     call: ""
   },
   discard: {
