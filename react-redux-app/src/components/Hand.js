@@ -8,7 +8,7 @@ const HandDiv = styled.div`
   height: 800px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space around;
   align-items: center;
 `;
 
@@ -19,6 +19,7 @@ display:flex;
 flex-wrap: wrap;
 justify-content: space-around
 align-items: center;
+align-self: flex-start;
 `;
 
 const Hand = props => {
